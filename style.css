@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: royalblue;
+  color: white;
+  padding: 1em 0;
+}
+header ul{
+  list-style: none;
+  margin: auto;
+  left:auto;
+}
+header ul li {
+  text-align: left;
+  display: inline ; 
+  background-color: #2c67a5;   /* para que se muestren los elementos en linea*/
+}
+header ul li a{
+  color: white;
+  size-adjust: 20px;
+}
+header ul li:hover{
+  background-color:#3498db ;   /*#2c67a5*/
+}
+header h1{
+  text-align: center;
+}
+
+/* Estilos del contenido principal */
+main {
+  padding: 2em;
+}
+.empanada{
+  width: 300px;
+  height: auto;
+}
+section {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  text-transform: bold;
+}
