@@ -1,42 +1,31 @@
-# Página Web "La Cocina de Mati"
+# Documentación HTML - La Cocina de Mati
 
-Este es el código fuente de la página web "La Cocina de Mati", un sitio destinado a compartir información sobre recetas y cocina. El sitio consta de las siguientes secciones:
+Este es un ejemplo de una página web HTML que presenta recetas de cocina en **La Cocina de Mati**.
 
-## Contenido
+## Estructura del Archivo
 
-### Encabezado
+- El archivo utiliza la etiqueta `<!DOCTYPE html>` para definir el tipo de documento como HTML5.
+- Se especifica el lenguaje de la página como español (`esn`).
+- En el encabezado (`<head>`), se establece la codificación de caracteres y la configuración de la vista.
+- Se enlaza una hoja de estilos externa llamada `style.css` para aplicar estilos a la página.
+- Se define el título de la página como "Cocina".
 
-En el encabezado de la página se encuentra la barra de navegación con enlaces a diferentes secciones:
-- **Home:** Enlace a la página principal (`index.html`).
-- **Acerca de:** Enlace a la sección de información sobre la cocina (`#`).
-- **Contacto:** Enlace a la página de contacto (`contact.html`).
+## Encabezado y Navegación
 
-El título principal de la página es "La Cocina de Mati".
+- Sección de encabezado (`<header>`) que incluye un menú de navegación (`<nav>`) con tres enlaces: "Home", "Acerca de" y "Contacto".
+- El título principal "La Cocina de Mati" se presenta como un encabezado de nivel 1 (`<h1>`).
 
-### Sección "Acerca de"
+## Contenido Principal
 
-En esta sección se presenta información general sobre el sitio y la cocina. Se incluye una imagen que representa la cocina y un párrafo de texto que describe los objetivos del sitio.
+- La sección principal (`<main>`) contiene una receta de "Empanadas de Carne".
+- Sección de receta (`<section>`) que incluye el título de la receta "Empanadas de Carne".
+- Una imagen de empanadas de carne (`<img>`) se muestra utilizando la clase CSS "empanada".
+- Un párrafo (`<p>`) que describe los pasos para preparar las empanadas.
 
-### Pie de Página
+## Pie de Página
 
-El pie de página, identificado con `#footer`, muestra la declaración de derechos reservados para el año 2023.
+- El pie de página (`<footer>`) contiene el texto "Derechos reservados © 2023".
 
-## Archivos
-
-- `style.css`: Archivo de hoja de estilos que se enlaza con la página.
-- `index.html`: Página principal con el encabezado, contenido principal y pie de página.
-- `contact.html`: Página de contacto (se asume que existe enlace en el menú, aunque no está definida en este archivo).
-- Imagen empanada (`empanada.jpg`): Imagen utilizada en la sección "Acerca de".
-
-## Uso
-
-El código puede ser utilizado como base para construir un sitio web relacionado con recetas y cocina. Se pueden personalizar los contenidos y estilos según las necesidades del proyecto.
-
-## Autor
-
-Nombre: [Tu Nombre]
-Contacto: [Tu Correo Electrónico]
-
-## Licencia
-
-Este proyecto está bajo la Licencia [nombre de la licencia].
+---
+Autor: Tu Nombre
+Fecha: Fecha de Creación
